@@ -3,12 +3,12 @@ import datetime
 
 #Opening files ***********************************************************************************
 #Reads the CSV file with the names of all the delivery locations
-with open('addresses.csv') as csv_name_file:
+with open('Addresses.csv') as csv_name_file:
     readCSV_name = csv.reader(csv_name_file, delimiter=',')
     readCSV_name = list(name_readCSV_name)
 
 # Reads the CSV file with the map and distances between the delivery locations
-with open('distances.csv') as csvfile:
+with open('Distances.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     readCSV = list(readCSV)
 
